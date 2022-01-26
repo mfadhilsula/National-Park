@@ -1,0 +1,13 @@
+{
+  "id" : "https://mfadhilsula.github.io/National-Park/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in mfadhilsula/National-Park project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mfadhilsula.github.io/National-Park/manifests/manifest2.json",
+    "label" : "Some sceneries in the National Mall"
+  } ]
+}

@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mfadhilsula.github.io/National-Park/manifests/manifest2.json",
     "label" : "Some sceneries in the National Mall"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mfadhilsula.github.io/National-Park/manifests/National-Mall.json",
+    "label" : "Some sceneries in the National Mall"
   } ]
 }

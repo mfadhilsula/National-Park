@@ -1,112 +1,167 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://mfadhilsula.github.io/National-Park/manifests/manifest2.json",
-  "@type" : "sc:Manifest",
-  "label" : "Some sceneries in the National Mall",
-  "metadata" : [ ],
-  "description" : [ {
-    "@value" : "Photos when in US",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "Madiareni Sulaiman",
-  "sequences" : [ {
-    "@id" : "http://8190b1ee-9a0b-4533-944e-4519389a2659",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
-    "canvases" : [ {
-      "@id" : "http://73032715-6746-4e64-adf0-1ac5801606bd",
-      "@type" : "sc:Canvas",
-      "label" : "building, park, trees, daylight, library of congress, house triangles, daylight, United States",
-      "height" : 3648,
-      "width" : 5472,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://8d1ec1a1-d74c-4ede-9075-c0258dd32872",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/img-5268/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/img-5268",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 3648,
-          "width" : 5472
-        },
-        "on" : "http://73032715-6746-4e64-adf0-1ac5801606bd"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://58b70e15-925f-42c3-b94a-1cb6e9ab5091",
-      "@type" : "sc:Canvas",
-      "label" : "yellow, tree, National Mall",
-      "height" : 3648,
-      "width" : 5472,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://259fab66-fd6d-4398-b14c-92f7cbb6f324",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/img-5256_202201/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/img-5256_202201",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 3648,
-          "width" : 5472
-        },
-        "on" : "http://58b70e15-925f-42c3-b94a-1cb6e9ab5091"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://473e8fcc-1321-4373-a720-da407f8b4e33",
-      "@type" : "sc:Canvas",
-      "label" : "brown, trees",
-      "height" : 3648,
-      "width" : 5472,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://9dd67d87-174d-46f7-81e5-853abf6a153e",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/img-5241/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/img-5241",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 3648,
-          "width" : 5472
-        },
-        "on" : "http://473e8fcc-1321-4373-a720-da407f8b4e33"
-      } ],
-      "related" : ""
-    } ]
-  } ],
-  "structures" : [ {
-    "@id" : "http://example.org/iiif/book1/range/top",
-    "@type" : "sc:Range",
-    "label" : "Table of Content",
-    "viewingHint" : "top",
-    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
-  }, {
-    "@id" : "http://example.org/iiif/book1/range/intro",
-    "@type" : "sc:Range",
-    "label" : "Introduction",
-    "canvases" : [ "http://73032715-6746-4e64-adf0-1ac5801606bd" ]
-  } ]
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://db16fbf3-e556-4abe-a2d5-0582a2f13779",
+	"@type": "sc:Manifest",
+	"label": "Some sceneries in the National Mall",
+	"service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://dev.gdmrdigital.com/search-api/1245635613/73381049/fd9a97db860e47a842501acbce2d2e7c/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+},
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Photos when in US",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Madiareni Sulaiman",
+	"sequences": [
+		{
+			"@id": "http://8190b1ee-9a0b-4533-944e-4519389a2659",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://73032715-6746-4e64-adf0-1ac5801606bd",
+					"@type": "sc:Canvas",
+					"label": "building, park, trees, daylight, library of congress, house triangles, daylight, United States",
+					"height": 3648,
+					"width": 5472,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8d1ec1a1-d74c-4ede-9075-c0258dd32872",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/img-5268/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/img-5268",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 3648,
+								"width": 5472
+							},
+							"on": "http://73032715-6746-4e64-adf0-1ac5801606bd"
+						}
+					],
+					"otherContent": [
+    {
+        "@id": "https://mfadhilsula.github.io/National-Park/annotations/a50014787ee8b3100d07d339a5869e08.json",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+],
+					"related": ""
+				},
+				{
+					"@id": "http://58b70e15-925f-42c3-b94a-1cb6e9ab5091",
+					"@type": "sc:Canvas",
+					"label": "yellow, tree, National Mall",
+					"height": 3648,
+					"width": 5472,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://259fab66-fd6d-4398-b14c-92f7cbb6f324",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/img-5256_202201/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/img-5256_202201",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 3648,
+								"width": 5472
+							},
+							"on": "http://58b70e15-925f-42c3-b94a-1cb6e9ab5091"
+						}
+					],
+					"otherContent": [
+    {
+        "@id": "https://mfadhilsula.github.io/National-Park/annotations/7d70c48e4338ddfe658f48ad57ae0438.json",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+],
+					"related": ""
+				},
+				{
+					"@id": "http://473e8fcc-1321-4373-a720-da407f8b4e33",
+					"@type": "sc:Canvas",
+					"label": "brown, trees",
+					"height": 3648,
+					"width": 5472,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9dd67d87-174d-46f7-81e5-853abf6a153e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/img-5241/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/img-5241",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 3648,
+								"width": 5472
+							},
+							"on": "http://473e8fcc-1321-4373-a720-da407f8b4e33"
+						}
+					],
+					"otherContent": [
+    {
+        "@id": "https://mfadhilsula.github.io/National-Park/annotations/72f9f2a3c16bf9e0d2033bf70ed527a6.json",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [
+    {
+        "@id": "http://example.org/iiif/book1/range/top",
+        "@type": "sc:Range",
+        "label": "Table of Content",
+        "viewingHint": "top",
+        "ranges": [
+            "http://example.org/iiif/book1/range/intro"
+        ]
+    },
+    {
+        "@id": "http://example.org/iiif/book1/range/intro",
+        "@type": "sc:Range",
+        "label": "Introduction",
+        "canvases": [
+            "http://73032715-6746-4e64-adf0-1ac5801606bd"
+        ]
+    }
+]
 }

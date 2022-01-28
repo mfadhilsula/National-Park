@@ -1,0 +1,169 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Thomas Jefferson building, Library of Congress, Washington DC, United States",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Thomas Jefferson building, Library of Congress, Washington DC, United States</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "libraryofcongress",
+      "@type" : "oa:Tag",
+      "chars" : "libraryofcongress"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "thomasjefferson",
+      "@type" : "oa:Tag",
+      "chars" : "thomasjefferson"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "thomasjeffersonbuilding",
+      "@type" : "oa:Tag",
+      "chars" : "thomasjeffersonbuilding"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Library of Congress",
+      "@type" : "oa:Tag",
+      "chars" : "Library of Congress"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "LoC",
+      "@type" : "oa:Tag",
+      "chars" : "LoC"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Thomas Jefferson",
+      "@type" : "oa:Tag",
+      "chars" : "Thomas Jefferson"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/73381049",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-01-27T11:39:00",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643283540841",
+    "dcterms:modified" : "2022-01-28T01:23:36",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://mfadhilsula.github.io/National-Park/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1442,1654,3247,1272"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1442.11287,1654.4515h1623.57496v0h1623.57496v635.92063v635.92063h-1623.57496h-1623.57496v-635.92063z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_1295151b-5c12-4aab-a83c-a8922bf686dd\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1.29836\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://73032715-6746-4e64-adf0-1ac5801606bd"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "A big red tree in the US Capitol ground from the House Triangles",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>A big red tree in the US Capitol ground from the House Triangles</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "redtree",
+      "@type" : "oa:Tag",
+      "chars" : "redtree"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "USCapitol",
+      "@type" : "oa:Tag",
+      "chars" : "USCapitol"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "US Capitol",
+      "@type" : "oa:Tag",
+      "chars" : "US Capitol"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "housetriangles",
+      "@type" : "oa:Tag",
+      "chars" : "housetriangles"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "House Triangles",
+      "@type" : "oa:Tag",
+      "chars" : "House Triangles"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/73381049",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-01-28T01:26:45",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643333205931",
+    "dcterms:modified" : "2022-01-28T01:29:25",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://mfadhilsula.github.io/National-Park/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2813,-2,2657,3123"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5470,-2h-1328.5404v0h-1328.5404v1561.67683v1561.67683h1328.5404h1328.5404v-1561.67683z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_61d68cf6-e2fe-4505-988a-7aec4a0f449d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"25.20598\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://73032715-6746-4e64-adf0-1ac5801606bd"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "US Capitol Visitor Center sign",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>US Capitol Visitor Center sign</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "US Capitol",
+      "@type" : "oa:Tag",
+      "chars" : "US Capitol"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "visitorcenter",
+      "@type" : "oa:Tag",
+      "chars" : "visitorcenter"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Visitor Center",
+      "@type" : "oa:Tag",
+      "chars" : "Visitor Center"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "UScapitol",
+      "@type" : "oa:Tag",
+      "chars" : "UScapitol"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "sign",
+      "@type" : "oa:Tag",
+      "chars" : "sign"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/73381049",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-01-28T01:20:51",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643332851386",
+    "dcterms:modified" : "2022-01-28T01:25:08",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://mfadhilsula.github.io/National-Park/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2399,2771,297,543"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2399.02649,3314.05035h148.27273v0h148.27273v-271.72727v-271.72727h-148.27273h-148.27273v271.72727z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_7030d483-6541-4c37-8084-9ca42a5c58b9\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"7.79019\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://73032715-6746-4e64-adf0-1ac5801606bd"
+    } ]
+  } ],
+  "@id" : "https://mfadhilsula.github.io/National-Park/annotations/a50014787ee8b3100d07d339a5869e08.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

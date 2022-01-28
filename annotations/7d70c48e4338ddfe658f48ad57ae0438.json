@@ -1,0 +1,92 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "yellowtree",
+      "@type" : "oa:Tag",
+      "chars" : "yellowtree"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "nationalmall",
+      "@type" : "oa:Tag",
+      "chars" : "nationalmall"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "National Mall",
+      "@type" : "oa:Tag",
+      "chars" : "National Mall"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "A Yellow tree in the National Mall",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>A Yellow tree in the National Mall</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/73381049",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-01-28T01:32:14",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643333534695",
+    "dcterms:modified" : "2022-01-28T01:32:14",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://mfadhilsula.github.io/National-Park/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1927,1205,2168,1385"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1926.56894,2589.72134h1083.75181v0h1083.75181v-692.59652v-692.59652h-1083.75181h-1083.75181v692.59652z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_20c8d6f7-7f95-4740-b11a-aff3f0067f60\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://58b70e15-925f-42c3-b94a-1cb6e9ab5091"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "yellowtree",
+      "@type" : "oa:Tag",
+      "chars" : "yellowtree"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "nationalmall",
+      "@type" : "oa:Tag",
+      "chars" : "nationalmall"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "A Yellow tree in the National Mall",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>A Yellow tree in the National Mall</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/73381049",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-01-28T01:32:57",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643333577093",
+    "dcterms:modified" : "2022-01-28T01:32:57",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://mfadhilsula.github.io/National-Park/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3128,3304,584,342"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3128.44993,3646h292.20464v0h292.20464v-171.07547v-171.07547h-292.20464h-292.20464v171.07547z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_d4ffcf9c-46e1-4158-a2b1-11feb2319028\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://58b70e15-925f-42c3-b94a-1cb6e9ab5091"
+    } ]
+  } ],
+  "@id" : "https://mfadhilsula.github.io/National-Park/annotations/7d70c48e4338ddfe658f48ad57ae0438.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

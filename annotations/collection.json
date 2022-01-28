@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://mfadhilsula.github.io/National-Park/annotations/a50014787ee8b3100d07d339a5869e08.json" ],
+  "otherContent" : [ "https://mfadhilsula.github.io/National-Park/annotations/a50014787ee8b3100d07d339a5869e08.json", "https://mfadhilsula.github.io/National-Park/annotations/72f9f2a3c16bf9e0d2033bf70ed527a6.json" ],
   "@id" : "https://mfadhilsula.github.io/National-Park/annotations/collection.json",
   "label" : "All annotations loaded in mfadhilsula/National-Park project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
